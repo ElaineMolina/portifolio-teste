@@ -1,0 +1,44 @@
+.container-fluid{
+    font-family: "Nunito";
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 100%;
+    width: 970px;
+    height: 560px;
+    margin: 0;
+}
+
+.blog{
+    color: #6B705C;
+    max-width: 80%;
+    padding: 15px 10px;
+    display: flex;
+    flex-wrap: wrap;
+    flex: 2 1 300px;
+	margin: 0 10px;
+} 
+
+img {
+    width: 170px;
+    height: 110px;
+    border-radius: 6px;
+    margin: 10px;
+}
+
+.themes{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px;
+    align-items:baseline;
+}
+
+.themes p {
+    display: flex;
+    flex-wrap: wrap;
+    width: 200px;
+    text-align: center;
+    justify-content: center;
+    font-weight: 400;
+    color: #6B705C;
+    font-size: 0.75em;
+}

@@ -1,0 +1,101 @@
+/*resetando*/
+.container-fluid, p,
+ul,
+li,
+i,
+a {
+    margin: 0px;
+    padding: 0px;
+}
+
+ul {
+    list-style: none;
+}
+
+* {
+    box-sizing: border-box;
+    font-family: "Nunito";
+    font-weight: bold;
+}
+
+/*Geral*/
+.container-fluid{
+    font-family: "Nunito";
+    display: flex;
+    flex-wrap: wrap;
+    width: 1920px;
+    height: 560px;
+    margin-left: 10px;
+}
+
+.nav {
+    display: flex;
+    flex-wrap: wrap;
+    color: #9C6644;
+    background: #E6CCB2;
+    max-width: 14%;
+    padding-left: 15px;
+    width: 15%;
+    height: 560px;
+}
+
+.title {
+    font-size: 2em;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin: 20px;
+    
+
+    .name {
+        margin-bottom: 10px;
+        font-weight: bold;
+    }
+
+    img {
+        width: 160px;
+        height: 160px;
+        border-radius: 50%;
+        border: 2px solid #B08968;
+    }
+}
+
+.message {
+    font-size: 1.25em;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 15px;
+    line-height: 1.2;
+}
+
+.bi {
+    font-size: 20px;
+    margin: 3px;
+    color: #9C6644;
+}
+
+.items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.menu-nav li:hover {
+    color: #6B705C;
+    font-weight: bolder;
+}
+
+a{
+    font-size: 1em;
+    text-align: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    display: flex;
+    margin-bottom: 10px;
+}
