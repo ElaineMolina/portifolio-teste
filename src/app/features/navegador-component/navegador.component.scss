@@ -19,34 +19,29 @@ ul {
 }
 
 /*Geral*/
-.container-fluid{
-    font-family: "Nunito";
-    display: flex;
-    flex-wrap: wrap;
-    width: 1920px;
-    height: 560px;
-    margin-left: 10px;
-}
-
 .nav {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
     color: #9C6644;
     background: #E6CCB2;
-    max-width: 14%;
+    max-width: 20%;
+    width: 210px;
     padding-left: 15px;
-    width: 15%;
-    height: 560px;
+    height: 558px;
+    position: fixed;
+    left: 0;
 }
 
 .title {
-    font-size: 2em;
+    font-size: 1.50em;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     flex-direction: row;
-    margin: 20px;
+    margin: 15px;
     
 
     .name {
@@ -55,15 +50,14 @@ ul {
     }
 
     img {
-        width: 160px;
-        height: 160px;
+        width: 140px;
+        height: 140px;
         border-radius: 50%;
-        border: 2px solid #B08968;
     }
 }
 
 .message {
-    font-size: 1.25em;
+    font-size: 1em;
     text-align: center;
     justify-content: center;
     display: flex;
@@ -86,13 +80,13 @@ ul {
     flex-wrap: wrap;
 }
 
-.menu-nav li:hover {
+.items li:hover {
     color: #6B705C;
     font-weight: bolder;
 }
 
 a{
-    font-size: 1em;
+    font-size: .75em;
     text-align: center;
     justify-content: center;
     flex-wrap: wrap;

@@ -1,22 +1,28 @@
+*{
+    font-family: 'Nunito';
+}
 .container-fluid{
-    font-family: "Nunito";
     display: flex;
     flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    color: #6B705C;
     max-width: 100%;
-    width: 970px;
-    height: 560px;
-    margin: 0;
-}
+    margin-left: 22%;
+    width: 1000px;
+    padding: 15px 10px;
+} 
 
-.blog{
+h1{
     color: #6B705C;
     max-width: 80%;
     padding: 15px 10px;
     display: flex;
     flex-wrap: wrap;
     flex: 2 1 300px;
-	margin: 0 10px;
-} 
+    margin: 20px;
+    font-weight: 700px;
+}
 
 img {
     width: 170px;
@@ -28,17 +34,27 @@ img {
 .themes{
     display: flex;
     flex-wrap: wrap;
+    text-align: center;
     margin: 20px;
-    align-items:baseline;
 }
 
-.themes p {
+p{
     display: flex;
     flex-wrap: wrap;
-    width: 200px;
-    text-align: center;
     justify-content: center;
+    width: 190px;
     font-weight: 400;
     color: #6B705C;
     font-size: 0.75em;
+    align-items: center;
+
+}
+.blog p{
+    font-size: 1.25em;
+    font-weight: 400;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    width: 400px;
+
 }

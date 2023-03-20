@@ -1,33 +1,38 @@
-.container-fluid{
+* {
+    box-sizing: border-box;
     font-family: "Nunito";
-    display: flex;
-    flex-wrap: wrap;
-    max-width: 76%;
-    width: 970px;
-    height: 560px;
-    margin: 0;
+    font-weight: bold;
 }
 
 .home{
-    color: #6B705C;
-    max-width: 100%;
-    width: 1028px;
-    padding: 15px 10px;
     display: flex;
     flex-wrap: wrap;
+    align-items: center;
+    color: #6B705C;
+    max-width: 100%;
+    margin-left: 22%;
+    width: 1000px;
+    padding: 15px 10px;
 } 
 
 i{
-    font-size: 3em;
-    margin: 20px 20px;
+    font-size: 3.75em;
+    margin:  15px;
+    align-content: flex-end;
+    
 }
-.home p{
+
+p{
     font-size: 1.50em;
     font-weight: 400;
     text-align: center;
     display: flex;
     flex-wrap: wrap;
 }
-.home h1{
-    margin: 40px 30px;
+
+h1{
+    margin: 20px 30px;
+    justify-content: flex-start;
+    font-size: 2.75em;
+    font-weight: 800;
 }

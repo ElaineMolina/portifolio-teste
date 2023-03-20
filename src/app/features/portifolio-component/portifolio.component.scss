@@ -1,21 +1,15 @@
-.container-fluid {
-    font-family: "Nunito";
-    display: flex;
-    flex-wrap: wrap;
-    max-width: 76%;
-    width: 970px;
-    height: 560px;
-    margin: 0;
-}
 
-.portifolio {
-    color: #6B705C;
-    max-width: 80%;
+.container-fluid{
     display: flex;
     flex-wrap: wrap;
-   
-}
-.portifolio h1{
+    color: #6B705C;
+    max-width: 100%;
+    margin-left: 22%;
+    width: 1000px;
+    padding: 15px 10px;
+} 
+
+h1{
     color: #6B705C;
     max-width: 80%;
     padding: 15px 10px;
@@ -28,17 +22,12 @@
     margin: 0 30px;
 }
 
-
 .skills {
     display: flex;
     flex-wrap: wrap;
-
 }
 
-// .growing{
-//     border-bottom: 100px;
-//     width: 200px;
-// }
+
 .meter {
     height: 20px;
     position: relative;
@@ -49,27 +38,19 @@
 }
 
 img {
-    width: 170px;
+    display: block;
+    max-width: 100%;
+    width: 160px;
     height: 110px;
     border-radius: 6px;
     margin: 10px;
 }
 
-h1{
-    color: #6B705C;
-    max-width: 80%;
-    padding: 15px 10px;
-    display: flex;
-    flex-wrap: wrap;
-    flex: 2 1 300px;
-    margin: 20px;
-}
-
 .projects {
     display: flex;
     flex-wrap: wrap;
-    margin: 20px;
-    align-items:baseline;
+    margin: 0 20px;
+    justify-content: space-between;
 
 }
 
